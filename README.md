@@ -2,6 +2,13 @@
 
 SSL plugin for bitlbee
 
+## Build
+
+```
+make
+make install
+```
+
 ## Usage
 
 ```
@@ -43,3 +50,13 @@ SSL plugin for bitlbee
 00:16 <peer> :wolfe.freenode.net 375 dx2 :- wolfe.freenode.net Message of the Day -
 00:16 <peer> :wolfe.freenode.net 372 dx2 :- Welcome to wolfe.freenode.net in Stockholm, SE.
 ```
+
+## FAQ
+
+Q: why
+
+A: someone asked for bitlbee-ssl
+
+Q: is this irc over ssl
+
+A: no, this is ssl
