@@ -1,3 +1,10 @@
+# bitlbee-ssl
+
+SSL plugin for bitlbee
+
+## Usage
+
+```
 00:16 <@dx|ssl> ac add ssl irc.freenode.net 6697
 00:16 <@root> Account successfully added with tag ssl
 00:16 <@dx|ssl> ac on
@@ -6,8 +13,9 @@
 00:16 -!- peer [peer@ssl] has joined &bitlbee
 00:16 -!- ServerMode/&bitlbee [+v peer] by localhost.localdomain
 00:16 <@root> ssl - Logging in: Logged in
+```
 
-
+```
 00:16 <peer> :wolfe.freenode.net NOTICE * :*** Looking up your hostname...
 00:16 <peer> :wolfe.freenode.net NOTICE * :*** Checking Ident
 00:16 <peer> :wolfe.freenode.net NOTICE * :*** Couldn't look up your hostname
@@ -34,4 +42,4 @@
 00:16 <peer> :wolfe.freenode.net 250 dx2 :Highest connection count: 7172 (7170 clients) (1940293 connections received)
 00:16 <peer> :wolfe.freenode.net 375 dx2 :- wolfe.freenode.net Message of the Day -
 00:16 <peer> :wolfe.freenode.net 372 dx2 :- Welcome to wolfe.freenode.net in Stockholm, SE.
-[...]
+```
