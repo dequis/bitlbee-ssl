@@ -1,5 +1,5 @@
 CFLAGS ?= -g
-LDFLAGS += -shared -fPIC $(shell pkg-config --cflags bitlbee)
+LDFLAGS += -shared -fPIC $(shell pkg-config --cflags bitlbee) -lgio-2.0
 DEST ?= $(shell pkg-config --variable plugindir bitlbee)
 
 
